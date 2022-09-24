@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+}
+
+.container {
+  display: flex;
+  padding: 5%;
+  width: 900px;
+  height: 550px;
+  gap: 15px;
+  text-align: center;
+}
+
+.container div {
+  border: 3px solid black;
+}
+
+.both_one {
+  display: flex;
+  font-size: medium;
+  border-radius: 4px;
+  background-color: rgb(12, 12, 23);
+  color: #ffff;
+  padding: 0 50px;
+  border-radius: 15px;
+  margin-left: 15px;
+  margin-top: 25px;
+}
+
+.both_two {
+  display: flex;
+  font-size: medium;
+  border-radius: 4px;
+  background-color: rgb(12, 12, 23);
+  color: #ffff;
+  padding: 0 50px;
+  border-radius: 15px;
+  align-items: center;
+  margin-left: 15px;
+  margin-top: 25px;
+}
+
+.other {
+  display: flex;
+  font-size: medium;
+  border-radius: 4px;
+  background-color: rgb(228, 228, 245);
+  color: rgb(7, 2, 2);
+  padding: 0 50px;
+  border-radius: 15px;
+  margin-left: 17px;
+  margin: 10px;
+  margin-top: 25px;
+}
+
+.insta {
+  color: #ffff;
+  background-color: rgb(233, 60, 112);
+}
+
+.img {
+  margin: 20px;
+  width: 70px;
+  height: 70px;
+}
+
+.HHH {
+  margin: 10px;
+}
