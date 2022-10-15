@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  width: 950px;
+  height: 500px;
+  gap: 15px;
+}
+
+.container div {
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  padding: 12px;
+  height: 100%;
+}
+
+.container div p {
+  text-align: center;
+}
+
+.container div button {
+  padding: 12px 24px;
+  border-radius: 15px;
+  font-size: medium;
+  border: none;
+  width: 100%;
+}
+
+.both_one {
+  background-color: rgb(12, 12, 23);
+  color: #ffff;
+}
+
+.both_two {
+  background-color: rgb(12, 12, 23);
+  color: #ffff;
+}
+
+.other {
+  background-color: rgb(228, 228, 245);
+  color: rgb(7, 2, 2);
+}
+
+.insta {
+  color: #ffff;
+  background-color: rgb(233, 60, 112);
+}
+
+.img {
+  width: 70px;
+  height: 70px;
+  padding: 12px;
+}
